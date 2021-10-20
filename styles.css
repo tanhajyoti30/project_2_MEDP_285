@@ -1,0 +1,165 @@
+/* Don't forget this */
+
+
+* {
+    box-sizing: border-box;
+    background-color:black;
+  }
+  
+  .container .col img {
+    width: 100%;
+  }  
+  p.a{
+    text-align: center;
+    font-family: 'Sacramento';font-size: 80px;
+    color:white;
+
+  }
+  p.b{ 
+    font-family: 'lorem ipsum';font-size: 20px;
+    color:white;
+    line-height: 1.5;
+   /* padding:50px;*/
+}
+.btn {
+  background-color: #FFD028;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 20px;
+  font-family:Helvetica;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  padding-left: 50px;
+}
+.center{
+  text-align: center;
+  color:white;
+  font-family:'Sacramento';
+  font-size: 80px;
+  }
+
+
+  .inside{
+    /* padding:20px;  */
+    font-family: 'lorem ipsum';
+    font-size: 20px;
+    color:white;
+    line-height: 0%;
+  }
+
+
+   @media screen and (min-width: 768px) {
+    .card-content{
+      padding:50px; 
+     line-height: 0%;
+   }
+   .row {
+     max-width: 1390px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       flex-wrap: wrap;     
+      
+   }
+   
+   .card {
+       display: flex;
+       flex-direction: column;
+       border: 1px solid black;
+   }
+  
+   
+  } 
+  
+  @media screen and (min-width: 1024px) {
+   .card-content{
+      padding:50px; 
+     line-height: 0%;
+   }
+   .row {
+     max-width: 1390px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       flex-wrap: wrap;      
+   }
+   
+   .card {
+       display: flex;
+       flex-direction: column;
+       border: 1px solid black;
+   }
+  
+   .pic:hover{
+    transform: scale(1.5,1.5); 
+     opacity: 1; 
+ } 
+ .pic{
+    opacity: 0.4;
+    transition-property: transform;
+    transition-duration: 1s; 
+    transition: opacity 1s; 
+ }  
+   } 
+  
+   @media screen and (min-width: 1440px) {
+    .container {
+      max-width: 1390px;
+      flex-direction: row;
+     
+      justify-content: space-around;
+      flex-wrap: wrap; 
+        
+    }
+    .image-wrapper{
+      justify-content: center;
+      align-content: center;
+      width: 100%;
+      height:100%;
+      display: block;
+     margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+    .card-content{
+      padding:50px; 
+     line-height: 0%;
+   }
+   .row {
+     max-width: 1390px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       flex-wrap: wrap;           
+   }
+   
+   .card {
+       display: flex;
+       flex-direction: column;
+       border: 1px solid black;
+   }
+   p.b{ 
+    padding: 50px;
+    font-family: 'lorem ipsum';font-size: 30px;
+    color:white;
+    line-height: 1.5;
+}
+p.a{
+  text-align: center;
+  font-family: 'Sacramento';font-size: 100px;
+  color:white;
+}
+
+.pic:hover{
+  transform: scale(1.5,1.5); 
+   opacity: 1; 
+} 
+.pic{
+  opacity: 0.4;
+  transition-property: transform;
+  transition-duration: 1s; 
+  transition: opacity 1s; 
+}  
+  } 
